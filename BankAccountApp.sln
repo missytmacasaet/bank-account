@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankAccount", "BankAccount\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D5CAFB11-84B0-4769-BED8-9611A88C0B98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccount.Test", "tests\BankAccount.Test\BankAccount.Test.csproj", "{E2BCE8AC-6D1F-4374-B001-24FCF5242EAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccount.Test", "tests\BankAccount.Test\BankAccount.Test.csproj", "{E2CD465F-F7D1-4462-89E5-05E6BA722C83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,16 +19,16 @@ Global
 		{798D0A5F-0853-45ED-AE70-54051BF19312}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{798D0A5F-0853-45ED-AE70-54051BF19312}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{798D0A5F-0853-45ED-AE70-54051BF19312}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E2BCE8AC-6D1F-4374-B001-24FCF5242EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E2BCE8AC-6D1F-4374-B001-24FCF5242EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E2BCE8AC-6D1F-4374-B001-24FCF5242EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E2BCE8AC-6D1F-4374-B001-24FCF5242EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2CD465F-F7D1-4462-89E5-05E6BA722C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2CD465F-F7D1-4462-89E5-05E6BA722C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2CD465F-F7D1-4462-89E5-05E6BA722C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2CD465F-F7D1-4462-89E5-05E6BA722C83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{E2BCE8AC-6D1F-4374-B001-24FCF5242EAD} = {D5CAFB11-84B0-4769-BED8-9611A88C0B98}
+		{E2CD465F-F7D1-4462-89E5-05E6BA722C83} = {D5CAFB11-84B0-4769-BED8-9611A88C0B98}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {26BB3E24-6C25-408B-924E-17F14368B75D}
