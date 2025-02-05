@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D5CAFB11
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccount.Test", "tests\BankAccount.Test\BankAccount.Test.csproj", "{E2CD465F-F7D1-4462-89E5-05E6BA722C83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccount.AutomatedTest", "tests\BankAccount.AutomatedTest\BankAccount.AutomatedTest.csproj", "{8CD2D040-6795-4B6B-93DB-143DB090A2A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{E2CD465F-F7D1-4462-89E5-05E6BA722C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2CD465F-F7D1-4462-89E5-05E6BA722C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2CD465F-F7D1-4462-89E5-05E6BA722C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CD2D040-6795-4B6B-93DB-143DB090A2A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD2D040-6795-4B6B-93DB-143DB090A2A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD2D040-6795-4B6B-93DB-143DB090A2A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD2D040-6795-4B6B-93DB-143DB090A2A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E2CD465F-F7D1-4462-89E5-05E6BA722C83} = {D5CAFB11-84B0-4769-BED8-9611A88C0B98}
+		{8CD2D040-6795-4B6B-93DB-143DB090A2A2} = {D5CAFB11-84B0-4769-BED8-9611A88C0B98}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {26BB3E24-6C25-408B-924E-17F14368B75D}

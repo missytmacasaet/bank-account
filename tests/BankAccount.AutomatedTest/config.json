@@ -1,0 +1,30 @@
+﻿{
+  "server": "hub.lambdatest.com",
+  "user": "macasaet.missyt",
+  "key": "s58eFl79dkYBHngyVRP3dNDdklAIiWDsabk3YlQw3xwRxcl2m9",
+
+  "capabilities": {
+    "lt:options": {
+      "buildName": "xunit build",
+      "sessionName": "lambdatest xunit sample test",
+      "visual": "true",
+      "plugin": "xunit:sample"
+    }
+  },
+
+  "environments": [
+    {
+      "browserName": "chrome"
+    },
+    {
+      "browserName": "firefox"
+    },
+    {
+      "browserName": "safari"
+    }
+  ],
+
+  "TunnelOptions": {
+    "tunnel": false
+  }
+}
