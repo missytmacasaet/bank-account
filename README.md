@@ -11,18 +11,22 @@ This project is a simple banking system implemented using .NET 8. It supports op
 - Calculate interest based on transaction history
 - Print account statements
 - Unit tests using xUnit
+- Automation Testing using Selenium.WebDriver and LambdaTest (free trial)
 
 ## Technologies Used
 
 - **.NET 8** - Core framework for the application
 - **C#** - Programming language
 - **xUnit** - Unit testing framework
+- **Selenium** - Automation Testing
 
 ## Getting Started
 
 ### Prerequisites
 
 - .NET 8 SDK installed
+- Google Chrome version 133 installed
+- Profile in https://automation.lambdatest.com/. Get credentials from the LambdaTest Profile by heading to Account Settings > Password & Security tab to be used in automation testing.
 
 ### Installation & Setup
 
@@ -115,6 +119,42 @@ The tests ensure correct functionality for:
 - Transaction handling
 - Interest calculations
 - Statement generation
+
+## Running Automated Tests
+
+To run the automated tests, execute the following command:
+
+1. Open the solution on your preffered IDE (e.g. Visual Studio, Visual Studio Code):
+2. Navigate to project BankAccount.AutomatedTest.
+3. Open `config.json` file.
+4. Update the following user and key, found from the LambdaTest Profile by heading to Account Settings > Password & Security tab to be used in automation testing.
+:
+   ```sh
+   user: <username>
+   key: <key>
+   ```
+5. Save Changes.
+6. Go to test directory:
+   ```sh
+   cd tests/BankAccount.AutomatedTest
+   ```
+
+7. Build the project:
+   ```sh
+   dotnet build
+   ```
+
+8. Run the test:
+   ```sh
+   dotnet test
+   ```
+
+9. See results in https://automation.lambdatest.com/build?pageType=build.
+
+
+The tests ensure correct functionality for:
+
+- Interest calculations
 
 ## Author
 

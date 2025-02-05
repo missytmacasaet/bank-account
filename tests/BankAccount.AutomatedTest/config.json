@@ -1,7 +1,7 @@
 ﻿{
   "server": "hub.lambdatest.com",
-  "user": "macasaet.missyt",
-  "key": "s58eFl79dkYBHngyVRP3dNDdklAIiWDsabk3YlQw3xwRxcl2m9",
+  "user": "<add username>",
+  "key": "<add key>",
 
   "capabilities": {
     "lt:options": {
